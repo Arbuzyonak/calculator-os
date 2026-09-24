@@ -29,18 +29,8 @@ class display_buffer{
         void clear_screen() {
             for (int i = 0; i < HEIGHT; i++) { // height
                 for (int j = 0; j < WIDTH; j++) { // width
-                    if (pixel_grid[i][j] == false) continue; // skip the pixel if it is already 
-                    pixel_grid[i][j] = false // turn all the on pixels to off
+                    pixel_grid[i][j] = false; // turn all the on pixels to off
                 }
             }
         }
 };
-
-int main() {
-
-    display_buffer buffer;
-    buffer.set_pixel(0, 0, true);
-    buffer.render_screen();
-
-    return 0;
-}
