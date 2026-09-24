@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PkgConfig::PC_LIBUNWIND::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PkgConfig__PC_LIBUNWIND-Debug-646266691e8c5830deac.json",
+					"name" : "PkgConfig::PC_LIBUNWIND",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3::Headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3__Headers-Debug-9e07a947c43b2065fb14.json",
+					"name" : "SDL3::Headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3::SDL3-shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3__SDL3-shared-Debug-ff28ce0ecb1b032287ae.json",
+					"name" : "SDL3::SDL3-shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3::SDL3_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3__SDL3_test-Debug-6bcae30b35368764d45a.json",
+					"name" : "SDL3::SDL3_test",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-b23a0b23c080df4d29ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "HelloProject",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "HelloProject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HelloProject-Debug-47016729b1ac060fb880.json",
+					"name" : "HelloProject",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nassif/Documents/calculator-os/build",
+		"source" : "/home/nassif/Documents/calculator-os/emulator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

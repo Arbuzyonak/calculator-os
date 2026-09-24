@@ -1,0 +1,3 @@
+/home/nassif/Documents/calculator-os/build/CMakeFiles/HelloProject.dir
+/home/nassif/Documents/calculator-os/build/CMakeFiles/edit_cache.dir
+/home/nassif/Documents/calculator-os/build/CMakeFiles/rebuild_cache.dir
