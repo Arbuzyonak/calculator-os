@@ -57,12 +57,12 @@ build CMakeFiles/HelloProject.dir/main.cpp.o: CXX_COMPILER__HelloProject_unscann
   OBJECT_FILE_DIR = CMakeFiles/HelloProject.dir
   TARGET_SUPPORT_DIR = CMakeFiles/HelloProject.dir
 
-build CMakeFiles/HelloProject.dir/display_buffer.cpp.o: CXX_COMPILER__HelloProject_unscanned_Debug /home/nassif/Documents/calculator-os/emulator/display_buffer.cpp || cmake_object_order_depends_target_HelloProject
+build CMakeFiles/HelloProject.dir/display_buffer/display_buffer.cpp.o: CXX_COMPILER__HelloProject_unscanned_Debug /home/nassif/Documents/calculator-os/emulator/display_buffer/display_buffer.cpp || cmake_object_order_depends_target_HelloProject
   CONFIG = Debug
-  DEP_FILE = CMakeFiles/HelloProject.dir/display_buffer.cpp.o.d
+  DEP_FILE = CMakeFiles/HelloProject.dir/display_buffer/display_buffer.cpp.o.d
   FLAGS = -g -std=gnu++17
   OBJECT_DIR = CMakeFiles/HelloProject.dir
-  OBJECT_FILE_DIR = CMakeFiles/HelloProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/HelloProject.dir/display_buffer
   TARGET_SUPPORT_DIR = CMakeFiles/HelloProject.dir
 
 
@@ -73,7 +73,7 @@ build CMakeFiles/HelloProject.dir/display_buffer.cpp.o: CXX_COMPILER__HelloProje
 #############################################
 # Link the executable HelloProject
 
-build HelloProject: CXX_EXECUTABLE_LINKER__HelloProject_Debug CMakeFiles/HelloProject.dir/main.cpp.o CMakeFiles/HelloProject.dir/display_buffer.cpp.o | /usr/lib/libSDL3.so.0.4.16
+build HelloProject: CXX_EXECUTABLE_LINKER__HelloProject_Debug CMakeFiles/HelloProject.dir/main.cpp.o CMakeFiles/HelloProject.dir/display_buffer/display_buffer.cpp.o | /usr/lib/libSDL3.so.0.4.16
   CONFIG = Debug
   DEP_FILE = CMakeFiles/HelloProject.dir/link.d
   FLAGS = -g

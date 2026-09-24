@@ -1,0 +1,10 @@
+# ninja log v7
+1	265	1790213559309294260	CMakeFiles/HelloProject.dir/display_buffer/display_buffer.cpp.o	e55b5f6701b4f590
+2	316	1790213782509063286	CMakeFiles/HelloProject.dir/main.cpp.o	78ca8bfe4a431ad9
+316	373	1790213782823073476	HelloProject	ced26e7fc44f3bf1
+2	278	1790213883918356488	CMakeFiles/HelloProject.dir/main.cpp.o	78ca8bfe4a431ad9
+278	336	1790213884194365458	HelloProject	ced26e7fc44f3bf1
+1	283	1790214069901406214	CMakeFiles/HelloProject.dir/main.cpp.o	78ca8bfe4a431ad9
+283	348	1790214070183415395	HelloProject	ced26e7fc44f3bf1
+1	272	1790214131388408561	CMakeFiles/HelloProject.dir/main.cpp.o	78ca8bfe4a431ad9
+272	332	1790214131659417388	HelloProject	ced26e7fc44f3bf1

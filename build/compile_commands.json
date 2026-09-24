@@ -7,8 +7,8 @@
 },
 {
   "directory": "/home/nassif/Documents/calculator-os/build",
-  "command": "/usr/bin/clang++ -g -std=gnu++17 -o CMakeFiles/HelloProject.dir/display_buffer.cpp.o -c /home/nassif/Documents/calculator-os/emulator/display_buffer.cpp",
-  "file": "/home/nassif/Documents/calculator-os/emulator/display_buffer.cpp",
-  "output": "/home/nassif/Documents/calculator-os/build/CMakeFiles/HelloProject.dir/display_buffer.cpp.o"
+  "command": "/usr/bin/clang++ -g -std=gnu++17 -o CMakeFiles/HelloProject.dir/display_buffer/display_buffer.cpp.o -c /home/nassif/Documents/calculator-os/emulator/display_buffer/display_buffer.cpp",
+  "file": "/home/nassif/Documents/calculator-os/emulator/display_buffer/display_buffer.cpp",
+  "output": "/home/nassif/Documents/calculator-os/build/CMakeFiles/HelloProject.dir/display_buffer/display_buffer.cpp.o"
 }
 ]

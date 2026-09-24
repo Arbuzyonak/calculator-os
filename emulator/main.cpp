@@ -1,5 +1,6 @@
 #include <SDL3/SDL.h>
 #include <iostream>
+#include "display_buffer/display_buffer.h"
 
 int main(int argc, char* argv[]) {
     SDL_Init(SDL_INIT_VIDEO);
@@ -26,8 +27,9 @@ int main(int argc, char* argv[]) {
     SDL_Event e;
     bool quit = false;
 
-    // Define a rectangle
-    SDL_FRect greenSquare { 10.0f, 10.0f, 50.0f, 30.0f };
+    display_buffer buffer;
+
+
 
     while (!quit) {
         while (SDL_PollEvent(&e)) {
@@ -39,9 +41,9 @@ int main(int argc, char* argv[]) {
         SDL_SetRenderDrawColor(ren, 0, 0, 0, 255); // Set render draw color to black
         SDL_RenderClear(ren); // Clear the renderer
 
-        SDL_SetRenderDrawColor(ren, 0, 255, 0, 255); // Set render draw color to green
-        SDL_RenderFillRect(ren, &greenSquare); // Render the rectangle
-        
+        SDL_SetRenderDrawColor(ren, 255, 255, 255, 255);
+        SDL_RenderPoint(ren, 0, 0);
+
         SDL_RenderPresent(ren); // Render the screen
     }
 
