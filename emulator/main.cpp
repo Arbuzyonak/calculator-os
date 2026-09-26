@@ -38,13 +38,15 @@ int main(int argc, char* argv[]) {
             }
         }
 
-        SDL_SetRenderDrawColor(ren, 0, 0, 0, 255); // Set render draw color to black
-        SDL_RenderClear(ren); // Clear the renderer
+        SDL_SetRenderDrawColor(ren, 0, 0, 0, 255);
+        SDL_RenderClear(ren);
 
-        SDL_SetRenderDrawColor(ren, 255, 255, 255, 255);
-        SDL_RenderPoint(ren, 0, 0);
+        buffer.set_pixel(10, 10, true);
 
-        SDL_RenderPresent(ren); // Render the screen
+        buffer.render_screen(ren);
+
+        SDL_RenderPresent(ren);
+
     }
 
     SDL_DestroyRenderer(ren);
