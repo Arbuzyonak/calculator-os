@@ -1,0 +1,4 @@
+# Local build output and machine-specific editor settings
+build/
+emulator/build/
+.vscode/settings.json
